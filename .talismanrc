@@ -1,0 +1,6 @@
+fileignoreconfig:
+- filename: style.css
+  checksum: 9830ecabe9b83720f2a99312ceccd1c500e8c0ab20cc32d43358972d667bd39f
+- filename: index.html
+  checksum: 22bc090784628aee3fb3d438c75440487ccb16d13e9f45bb3168664ab02c7858
+version: ""
