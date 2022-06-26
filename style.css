@@ -58,6 +58,7 @@ p {
     justify-content: space-evenly;
     width: 100%;
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        /* url("file:///Users/subhasreej/assets/2caae017a61202f87bc36fab57e85a63.png");*/
         url("https://images01.nicepage.com/2c/aa/2caae017a61202f87bc36fab57e85a63.png");
     background-position: center;
     background-size: cover;
@@ -86,7 +87,7 @@ p {
     height: auto;
 }
 
-.banner hr {
+.underline {
     width: 100px;
     border: solid;
     border-color: #F4CB08;
@@ -140,10 +141,9 @@ p {
 
 .about {
     display: flex;
+    align-items: space-between;
+    padding: 50px 0px 50px 0px;
     justify-content: space-around;
-    padding: 10%;
-    gap: 10%;
-    width: auto;
 }
 
 .about h3 {
@@ -160,14 +160,16 @@ p {
 
 .about-content {
     display: flex;
+    flex-basis: 200%;
     flex-direction: column;
-    gap: 10%;
+    gap: 20px;
+    padding-left: 12%;
 }
 
 .about-description {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    padding-right: 12%;
 }
 
 .description {
@@ -184,4 +186,102 @@ p {
     padding: 12px 10px;
     border: none;
     width: 200px;
+    margin-top: 20px;
+}
+
+.btn-read_more:hover {
+    background-color: #F4CB08;
+    background-color: #dbb704;
+}
+
+.works {
+    display: flex;
+    min-height: 315px;
+}
+
+.part {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: left;
+    background-repeat: no-repeat;
+}
+
+.design h3 {
+    color: #fff;
+    margin: 20px;
+
+}
+
+.renovation h3 {
+    color: #fff;
+    margin: 20px;
+}
+
+.interior h3 {
+    color: #fff;
+    margin: 20px;
+}
+
+.works p {
+    color: #fff;
+    margin: 20px;
+}
+
+.works hr {
+    margin-left: 20px;
+}
+
+.design {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("https://images01.nicepage.com/bf/37/bf37f8217e4b71feb26707d632c6845d.png");
+}
+
+.renovation {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("https://images01.nicepage.com/45/78/457883519366bc77e9ffb4294b44f8df.png");
+}
+
+.interior {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("https://images01.nicepage.com/35/97/35970472e6f88da51190947c84ba6f2a.png");
+}
+
+.special_offers {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-block-start: 2%;
+}
+
+.special_offers h3 {
+    color: #F4CB08;
+    padding: 20px;
+}
+
+.special_offers h2 {
+    color: black;
+    padding: 0px 20px 20px 20px;
+    border-bottom-width: 3px;
+}
+
+.special_offers hr {
+    width: 80px;
+    border: solid;
+    border-color: #F4CB08;
+    margin-left: 47%;
+
+}
+
+footer {
+    background-color: rgb(25, 25, 25);
+    text-align: center;
+    color: #fff;
+    padding: 35px 0px 35px 0px;
+}
+
+span {
+    color: #F4CB08;
+    text-decoration: underline;
+    text-decoration-color: #f4cb08;
 }

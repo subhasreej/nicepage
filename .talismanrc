@@ -4,3 +4,12 @@ fileignoreconfig:
 - filename: index.html
   checksum: 22bc090784628aee3fb3d438c75440487ccb16d13e9f45bb3168664ab02c7858
 version: ""
+
+- filename: style.css
+  checksum: 828f219dadc4d96f8435a8f449113452216ef9290ddfc4c22ca5e48a950edc46
+version: ""
+
+fileignoreconfig:
+- filename: style.css
+  checksum: a86515d2ed01ff09a067726efb6569f411dd2abc15f25521787c64d9baab5176
+version: ""
